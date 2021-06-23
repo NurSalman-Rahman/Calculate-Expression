@@ -9,17 +9,18 @@
     tools:context=".MainActivity">
 
  <TextView
+     android:textStyle="bold"
      android:paddingTop="20dp"
      android:textAlignment="center"
      android:textSize="24sp"
-     android:textColor="#ffffff"
+     android:textColor="#419C08"
      android:layout_gravity="center"
      android:id="@+id/result_id"
      android:background="@drawable/backgroundtext"
      android:layout_marginTop="20dp"
-     android:layout_margin="30dp"
+     android:layout_margin="20dp"
      android:layout_width="match_parent"
-     android:layout_height="150dp"
+     android:layout_height="130dp"
      />
 
 

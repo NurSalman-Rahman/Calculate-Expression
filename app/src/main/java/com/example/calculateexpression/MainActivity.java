@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         initListener();
 
 
-        //done
     }
 
 
@@ -58,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 if (!value.isEmpty()) {
                     try {
                         resultTV.setText(String.valueOf(new ExpressionBuilder(value).build().evaluate()));
+                        expressionET.setText("");
                     } catch (Exception e) {
                         Toast.makeText(MainActivity.this, "Please check your input !!", Toast.LENGTH_SHORT).show();
                     }
@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+
     }
 
     private void initComponent() {
