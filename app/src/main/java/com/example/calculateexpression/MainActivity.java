@@ -3,17 +3,17 @@ package com.example.calculateexpression;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import net.objecthunter.exp4j.Expression;
+
 import net.objecthunter.exp4j.ExpressionBuilder;
 
-import java.util.concurrent.BlockingDeque;
+
 
 
 public class MainActivity extends AppCompatActivity {
@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         initListener();
     }
 
+
+    //click able
+    
     private void initListener() {
         submitBTN.setOnClickListener(new View.OnClickListener() {
             @Override
