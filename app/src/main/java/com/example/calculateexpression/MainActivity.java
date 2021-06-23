@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
     private EditText expressionET;
     private Button submitBTN;
 
+
+    //Button
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,11 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
         initComponent();
         initListener();
+
+
+        //done
     }
 
 
     //click able
-    
+
     private void initListener() {
         submitBTN.setOnClickListener(new View.OnClickListener() {
             @Override
